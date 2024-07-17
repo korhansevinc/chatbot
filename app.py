@@ -23,7 +23,7 @@ from prettierListDirectories import prettierListDirChatSessions
 from chat_session_utils import change_specials_with_space, slicing_response, slicing_title
 
 
-# This is for your own hardware. Change the max_split_size_mb:X -> X to your GPU's vram capacity.
+# This is for your own hardware. Change the max_split_size_mb:X ->  X <= to your GPU's vram capacity.
 torch.cuda.empty_cache()
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:7168"
 print(f"{os.environ['PYTORCH_CUDA_ALLOC_CONF']}")

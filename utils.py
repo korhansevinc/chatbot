@@ -23,7 +23,5 @@ def load_chat_history_json(file_path):
 
 
 # To create a unique json file so we can get every single chat session.
-# Extra Update Note for Future : Can be added a new llm model which can summarize the output with 1 sentence
-# then create or rename our json file with it.
 def get_timestamp():
     return datetime.now().strftime("%Y_%m_%d_%H_%M_%S")

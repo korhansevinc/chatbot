@@ -3,4 +3,4 @@ A local chatbot, which can chat, understand voice and images, can embed document
 #
 Use config.yaml to select the models.
 #
-You can download requirements from requirements.txt
+You can install requirements from requirements.txt

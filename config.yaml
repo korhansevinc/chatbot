@@ -5,13 +5,13 @@ model_path:
   phi_two: "./models/phi-2.Q5_K_M.gguf"
   mistral_turkish: "malhajar/Mistral-7B-Instruct-v0.2-turkish"
   llama2_finetuned: "./models/trendyol-llm-7b-chat-v0.1.Q5_K_M.gguf"
-  mistral_finetuned: "C:\\Users\\Korhan\\Desktop\\workspace\\vsCodeWorkspace\\Python_Workspace\\ChatBot\\models\\trendyol-llm-7b-chat-v1.0.Q5_K_S.gguf"
+  mistral_finetuned: ""./models/trendyol-llm-7b-chat-v1.0.Q5_K_S.gguf"
 
 model_type: "mistral"
 
 #embeddings_path: "./embedding_model/hkunlp_instructor-xl"
 embeddings_path: "BAAI/bge-large-en-v1.5"
-# Try max_new_tokens = 512 / context_length = 4096 , if sufficient vram established. (Do not try it on A2000)
+
 model_config: { 'max_new_tokens': 512 , 'temperature': 0.1 ,'context_length': 4096,  'gpu_layers' : 0 }
 
 chat_history_path: "./chat_sessions/"
